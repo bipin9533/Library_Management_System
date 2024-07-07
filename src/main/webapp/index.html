@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LIBRARY MANAGEMENT SYSTEM</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+            background: url("images/Userbackground.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        h1{
+            padding: 4rem;
+            font-size: 4rem;
+            text-align: center;
+        }
+        #bg{
+            width: 100%;
+            height: 0%;
+            margin-top: 20rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+
+        }
+        #btn1,#btn2{
+            display: flex;
+            align-items: center;
+            width: 20.625rem;
+            height: 8.6875rem;
+            font-size: 2.25rem;
+        }
+        #btn2{
+            padding-left: 2.5rem;
+            font-weight: 600;
+        }
+        #btn1{
+            padding-left: 1.5rem;
+            background: #000;
+            color: #fff;
+            font-weight: 600;
+        }
+        a{
+			text-decoration: none;
+		}
+        </style>
+    </head>
+    <body>
+        <h1>USERS</h1>
+        <div id="bg">
+			<a href="librarianLogin.jsp">
+            <button id="btn1"><img src="images/LIBRARIANicon.png" alt="LIBRARIAN">LIBRARIAN</button>
+            </a>
+            <a href="studentLogin.jsp">
+        <button id="btn2"><img src="images/STUDENTicon.png" alt="STUDENT">STUDENT</button>
+        </a>
+        </div>
+    </body>
+</html>
